@@ -22,10 +22,21 @@
 
     <properties>
         <spring-cloud.version>Hoxton.M3</spring-cloud.version>
-        <nimbus-jose.version>7.8</nimbus-jose.version>
+        <nimbus-jose.version>7.9</nimbus-jose.version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

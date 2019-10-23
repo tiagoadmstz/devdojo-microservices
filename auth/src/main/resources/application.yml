@@ -27,3 +27,7 @@ spring:
     url: jdbc:derby://10.10.11.158:1527/home/databases/sres_db
     username: root
     password: Sermed159#%&
+
+jwt:
+  config:
+    type: signed

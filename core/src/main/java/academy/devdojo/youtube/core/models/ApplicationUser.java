@@ -1,5 +1,6 @@
 package academy.devdojo.youtube.core.models;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 
 import javax.persistence.*;
@@ -10,6 +11,7 @@ import javax.validation.constraints.NotNull;
 @AllArgsConstructor
 @ToString
 @Builder
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @Entity
 @Table(name = "CAD_USUARIO_PRONTUARIO")
 public class ApplicationUser implements AbstractEntity {
@@ -23,6 +25,7 @@ public class ApplicationUser implements AbstractEntity {
     @Column(name = "PASSWD")
     private String password;
     @Transient
+    @Builder.Default
     private String role = "USER";
 
     public ApplicationUser(@NotNull ApplicationUser applicationUser) {
