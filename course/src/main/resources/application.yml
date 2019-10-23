@@ -17,3 +17,11 @@ spring:
     url: jdbc:oracle:thin:@10.10.11.3:1521:prod
     username: SERMED_PE
     password: S3rm3d@p3
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    register-with-eureka: true

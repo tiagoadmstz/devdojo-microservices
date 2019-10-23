@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "academy.devdojo.youtube.core.properties.JwtConfiguration",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration"
+    },
+    {
+      "name": "jwt.config.header",
+      "type": "academy.devdojo.youtube.core.properties.JwtConfiguration$Header",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration",
+      "defaultValue": 3600
+    },
+    {
+      "name": "jwt.config.login-url",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration",
+      "defaultValue": "\/login\/**"
+    },
+    {
+      "name": "jwt.config.private-key",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration",
+      "defaultValue": "zZV2dYNvwgRJCfNQ7g3DMth4I8EhhZfn"
+    },
+    {
+      "name": "jwt.config.type",
+      "type": "java.lang.String",
+      "sourceType": "academy.devdojo.youtube.core.properties.JwtConfiguration",
+      "defaultValue": "encrypted"
+    }
+  ],
+  "hints": []
+}

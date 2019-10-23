@@ -1,7 +1,7 @@
 server:
   port: 8080
   servlet:
-    context-path: gateway
+    context-path: /gateway
 
 spring:
   application:
@@ -11,4 +11,15 @@ eureka:
   instance:
     prefer-ip-address: true
   client:
-    service-url: http://localhost:8081
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+zuul:
+  sensitive-headers:
+    - Cookie
+
+jwt:
+  config:
+    login-url: /auth/login
