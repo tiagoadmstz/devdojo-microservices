@@ -2,40 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1210fec1-7a5b-4b54-85c1-9a76370f1f67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/academy/devdojo/youtube/auth/endpoints/controllers/UserInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/security/config/SecurityCredentialsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/devdojo-microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devdojo-microservices.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_7_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/academy/devdojo/youtube/auth/docs/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/devdojo/youtube/core/docs/BaseSwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/docs/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/devdojo/youtube/core/models/ApplicationUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/devdojo/youtube/core/models/ApplicationUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/CourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/CourseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/academy/devdojo/youtube/gateway/securtiry/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/academy/devdojo/youtube/gateway/securtiry/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/token/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/academy/devdojo/youtube/auth/endpoints/controllers/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/academy/devdojo/youtube/auth/endpoints/controllers/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/endpoints/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/course/src/main/java/academy/devdojo/youtube/course/endpoints/controllers/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/token/src/main/java/academy/devdojo/youtube/security/config/SecurityTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/academy/devdojo/youtube/security/config/SecurityTokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/src/main/java/academy/devdojo/youtube/security/filters/JwtTokenAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/main/java/academy/devdojo/youtube/security/filters/JwtTokenAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/token.iml" beforeDir="false" afterPath="$PROJECT_DIR$/token/token.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.devdojo.youtube.auth.docs" />
       <recent name="academy.devdojo.youtube.course.security.config" />
       <recent name="academy.devdojo.youtube.token.security.config" />
       <recent name="academy.devdojo.youtube.core.repositories" />
