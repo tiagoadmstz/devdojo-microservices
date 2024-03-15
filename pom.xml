@@ -22,7 +22,7 @@
 
     <properties>
         <spring-cloud.version>Hoxton.M3</spring-cloud.version>
-        <nimbus-jose.version>7.9</nimbus-jose.version>
+        <nimbus-jose.version>9.37.2</nimbus-jose.version>
         <swagger.version>2.9.2</swagger.version>
     </properties>
 
